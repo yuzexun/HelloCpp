@@ -50,6 +50,8 @@ bool HelloWorld::init()
     pMenu->setPosition(CCPointZero);
     this->addChild(pMenu, 1);
 
+	//oh shit
+
     /////////////////////////////
     // 3. add your codes below...
 
