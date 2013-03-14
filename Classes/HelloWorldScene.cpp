@@ -50,15 +50,13 @@ bool HelloWorld::init()
     pMenu->setPosition(CCPointZero);
     this->addChild(pMenu, 1);
 
-	//oh shit
-
     /////////////////////////////
     // 3. add your codes below...
 
     // add a label shows "Hello World"
     // create and initialize a label
     
-    CCLabelTTF* pLabel = CCLabelTTF::create("Good Game!hf!glgl!!asdffdsa~~~~~", "Arial", TITLE_FONT_SIZE);
+    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Arial", TITLE_FONT_SIZE);
     
     // position the label on the center of the screen
     pLabel->setPosition(ccp(origin.x + visibleSize.width/2,
